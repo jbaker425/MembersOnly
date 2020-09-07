@@ -1,4 +1,6 @@
-This is a simple Ruby on Rails application that allows users to sign up for an account and write to an anonymous message board. Anyone without an account may see member posts, but cannot see the author. If one creates an account and logs in, they may see what posts belong to who.
+This is a simple Ruby on Rails application that allows users to sign up for an account and write to an anonymous message board. Anyone without an account may see member posts, but cannot see the author. If one creates an account and logs in, they may see what posts belong to who. Project was inspired by the Odin Project's Ruby on Rails Course.
+
+* Project Link: https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication
 
 * Ruby version: 2.7.0
 
