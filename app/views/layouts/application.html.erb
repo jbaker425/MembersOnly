@@ -16,7 +16,9 @@
     <% if flash[:alert] %>
       <p class="alert"><%= alert %></p>
     <% end %>
+    <h1>Members Only</h1>
     <% if member_signed_in? %>
+      <%= link_to "Edit Account", edit_member_registration_path %>
       <%= link_to "Sign Out", destroy_member_session_path, method: :delete %>   
     <% else %>
       <%= link_to "Sign Up", new_member_registration_path %>
