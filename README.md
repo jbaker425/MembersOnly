@@ -1,24 +1,11 @@
-# README
+This is a simple Ruby on Rails application that allows users to sign up for an account and write to an anonymous message board. Anyone without an account may see member posts, but cannot see the author. If one creates an account and logs in, they may see what posts belong to who.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.7.0
 
-Things you may want to cover:
+* Rails version: 6.0.3.2
 
-* Ruby version
+* Database: SQLite3
 
-* System dependencies
+* Gems used:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    * Devise 4.7.2
